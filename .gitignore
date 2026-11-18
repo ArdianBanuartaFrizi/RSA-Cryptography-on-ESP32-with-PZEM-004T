@@ -1,0 +1,21 @@
+# Local Wi-Fi credentials
+firmware/secrets.h
+
+# RSA private/public key files (never commit private keys)
+*.pem
+*.key
+/private/
+
+# Local environment/configuration
+.env
+.env.*
+
+# Editor / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Logs and temporary files
+*.log
+*.tmp
